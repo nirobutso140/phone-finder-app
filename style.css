@@ -1,0 +1,110 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-body{
+    text-align: center;
+}
+.phone_hunter{
+   
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+
+}
+.card-text{
+    color: gray;
+}
+.card-img-top{
+    width: 10px;
+}
+
+
+/* search box */
+
+
+
+
+       body{
+        background-color:#eee;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+       }
+
+       
+
+       .search{
+       position: relative;
+       box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+         
+       }
+
+       .search input{
+
+        height: 50px;
+        text-indent: 25px;
+        border: 2px solid #d6d4d4;
+
+
+       }
+
+
+       .search input:focus{
+
+        box-shadow: none;
+        border: 2px solid blue;
+
+
+       }
+
+       .search .fa-search{
+
+        position: absolute;
+        top: 20px;
+        left: 16px;
+
+       }
+
+       .search button{
+
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        height: 50px;
+        width: 80px;
+        background: blue;
+
+       }
+
+       .details_title{
+        font-weight: bold;
+        color: rgb(38, 38, 38);
+       }
+       .phn_desc{
+        color: rgb(81, 81, 81);
+       }
+       .phone_details_img{
+        margin: auto;
+        display: block;
+       }
+       .btn{
+        background-color: rgb(61, 71, 139);
+       }
+       @media only screen and (max-width: 768px) {
+        .phone_hunter{  
+            grid-template-columns: auto auto;
+        }
+       }
+       @media only screen and (max-width: 600px) {
+            .phone_hunter{
+                grid-template-columns: auto;
+            }
+       }
